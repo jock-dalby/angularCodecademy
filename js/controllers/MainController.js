@@ -1,5 +1,6 @@
 // In MainController.js we created a new controller named MainController. A controller manages the app's data. Here we use the property title to store a string, and attach it to $scope.
 
+
 app.controller('MainController', ['$scope', function($scope){
   $scope.title = 'Hello, my name is Dr. Greenthumb';
   $scope.promo = "I'm going to tell you just where I'm from";
